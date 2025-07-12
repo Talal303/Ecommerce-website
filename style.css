@@ -1,0 +1,122 @@
+nav {
+    background-color: black !important;
+}
+
+nav a {
+    color: white !important;
+}
+
+span a,
+span {
+    color: #d4a373 !important;
+}
+
+#section1 {
+    height: 100vh;
+    background-color: black !important;
+    /* background-image: url(/image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+#section1 a {
+    border: 2px solid #d4a373;
+    color: #d4a373;
+}
+
+#section1 a:hover {
+    background-color: #d4a373;
+    color: white;
+}
+
+#section1 h1 {
+    font-size: 70px;
+}
+
+#section2 {
+    height: 70vh;
+    background-color: black;
+}
+
+#section2 img {
+    height: 55vh;
+    width: 45vw !important;
+}
+
+#section2 h1 {
+    font-size: 60px;
+}
+#talalwatch{
+    height: 50vh;
+    background-color: black;
+}
+#talalwatch h2{
+    font-size: 60px;
+}
+
+#section3 {
+    height: 170vh;
+    background-color: black;
+}
+
+#section3 .card {
+    background-color: transparent;
+    border: 1px solid white !important;
+}
+
+
+#section3 img {
+    height: 50vh;
+
+    /* background-color: transparent; */
+}
+
+#section3 h2 {
+    font-size: 60px;
+}
+#section3 button{
+    border: 2px solid #d4a373 !important;
+    background-color: black;
+    color: #d4a373 !important;
+}
+#section3 button:hover{
+    background-color: #d4a373 !important;
+    color: white !important;
+}
+#section3 a{
+    border: 2px solid #d4a373 !important;
+    background-color: black;
+    color: #d4a373 !important;
+}
+#section3 a:hover{
+    background-color: #d4a373 !important;
+    color: white !important;
+}
+
+#section4 {
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section4 h1 {
+    font-size: 60px;
+}
+#section5{
+    height: 80vh;
+    background-color: black;
+}
+#section5 h5{
+    font-size: 50px;
+}
+#section5 i{
+    color: #d4a373 !important;
+}
+
+#footer{
+    background-color: black;
+    height: 50vh;
+}
