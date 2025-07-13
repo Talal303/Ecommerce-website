@@ -14,10 +14,7 @@ span {
 #section1 {
     height: 100vh;
     background-color: black !important;
-    /* background-image: url(/image.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
+    
 }
 
 #section1 a {
@@ -69,7 +66,6 @@ span {
 #section3 img {
     height: 50vh;
 
-    /* background-color: transparent; */
 }
 
 #section3 h2 {
@@ -114,6 +110,111 @@ span {
 }
 #section5 i{
     color: #d4a373 !important;
+}
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    #section1 h1,
+    #section2 h1,
+    #talalwatch h2,
+    #section3 h2,
+    #section4 h1,
+    #section5 h5 {
+        font-size: 40px !important;
+    }
+    #section2 img,
+    #section3 img {
+        height: 30vh !important;
+        width: 80vw !important;
+    }
+}
+
+@media (max-width: 992px) {
+    #section1 {
+        height: auto;
+        padding: 2rem 0;
+    }
+    #section2 {
+        height: auto;
+        flex-direction: column;
+    }
+    #section2 img {
+        width: 100% !important;
+        height: 200px !important;
+    }
+    #talalwatch {
+        height: auto;
+        padding: 2rem 0;
+    }
+    #section3 {
+        height: auto;
+        padding: 2rem 0;
+    }
+    #section4 {
+        height: auto;
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+    #section5 {
+        height: auto;
+        padding: 2rem 0;
+    }
+    #footer {
+        height: auto;
+        padding: 2rem 0;
+    }
+}
+
+@media (max-width: 768px) {
+    nav .navbar-nav {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+    .navbar-brand {
+        font-size: 1.5rem !important;
+    }
+    #section1 h1,
+    #section2 h1,
+    #talalwatch h2,
+    #section3 h2,
+    #section4 h1,
+    #section5 h5 {
+        font-size: 28px !important;
+    }
+    #section2 img,
+    #section3 img {
+        height: 150px !important;
+        width: 100% !important;
+    }
+    .card {
+        margin-bottom: 1rem !important;
+    }
+    #footer .row > div {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #section1 h1,
+    #section2 h1,
+    #talalwatch h2,
+    #section3 h2,
+    #section4 h1,
+    #section5 h5 {
+        font-size: 20px !important;
+    }
+    #section2 img,
+    #section3 img {
+        height: 100px !important;
+        width: 100% !important;
+    }
+    .container,
+    .container-fluid {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .navbar-brand {
+        font-size: 1rem !important;
+    }
 }
 
 #footer{
