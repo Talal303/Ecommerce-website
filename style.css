@@ -14,7 +14,10 @@ span {
 #section1 {
     height: 100vh;
     background-color: black !important;
-    
+    /* background-image: url(/image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
 }
 
 #section1 a {
@@ -66,6 +69,7 @@ span {
 #section3 img {
     height: 50vh;
 
+    /* background-color: transparent; */
 }
 
 #section3 h2 {
@@ -111,6 +115,7 @@ span {
 #section5 i{
     color: #d4a373 !important;
 }
+
 #footer{
     background-color: black;
     height: 50vh;
@@ -165,6 +170,7 @@ span {
     #footer {
         height: auto;
         padding: 2rem 0;
+        
     }
 }
 
@@ -219,9 +225,4 @@ span {
     .navbar-brand {
         font-size: 1rem !important;
     }
-}
-
-#footer{
-    background-color: black;
-    height: 50vh;
 }
