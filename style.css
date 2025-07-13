@@ -111,6 +111,10 @@ span {
 #section5 i{
     color: #d4a373 !important;
 }
+#footer{
+    background-color: black;
+    height: 50vh;
+}
 /* Responsive Styles */
 @media (max-width: 1200px) {
     #section1 h1,
